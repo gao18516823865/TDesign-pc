@@ -18,7 +18,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # lock
-yarn.lock
 package-lock.json
 
 # code editor setting
