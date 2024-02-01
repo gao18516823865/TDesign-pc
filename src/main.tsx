@@ -9,8 +9,10 @@ import 'tdesign-react/es/style/index.css';
 
 import './styles/index.less';
 
+import { serviceBaseName } from 'router';
+
 const env = import.meta.env.MODE || 'development';
-const baseRouterName = env === 'site' ? '/starter/react/' : '';
+const baseRouterName = env === 'site' ? '/starter/react/' : serviceBaseName;
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const root = document.getElementById('app')!;
