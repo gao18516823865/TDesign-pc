@@ -9,7 +9,7 @@ import user from './modules/user';
 import login from './modules/login';
 import otherRoutes from './modules/others';
 
-export const serviceBaseName = '/admin-page-2';
+export const serviceBaseName = '/admin-page-2/';
 
 export interface IRouter {
   path: string;
